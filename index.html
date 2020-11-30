@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <link rel = 'stylesheet' href = 'style.css'>
+        <title>Weather App </title>
+    </head>
+    <body>
+        <h1>WEATHER APP</h1>
+        <h2>
+            CHECK THE TEMP, FROM ANYWHERE!
+        </h2>
+        <div class = 'search-container'>
+            <input type = "text" required id = 'city'>
+            <button id='submit'>Search</button>
+        </div>
+        <!--<div id = "toggle">
+            <input type = 'radio' value='C' name = "unit">
+            <label for="C">°C</label>
+            <input type="radio" value='F' name='unit'>
+            <label for="F">°F</label>
+        </div>-->
+        <!--<div class="toggle-mode-div">
+            <label class="switch">
+              <input type="checkbox" id="switch" class="metric" />
+              <span class="slider round"></span>
+            </label>
+            <p id="current-metric">°C</p>
+        </div>-->
+        <button id='toggle'>Toggle Degree</button>
+        <p id='current-metric'>metric</p>
+        <div class = 'city-container'>
+            <div id='title'></div>
+            <div id='temp'></div>
+            <div id='max'></div>
+            <div id='min'></div>
+            <div id='humidity'></div>
+        </div>
+    </body>
+    <script src = 'main.js'></script>
+</html>
