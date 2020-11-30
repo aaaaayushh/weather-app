@@ -1,2 +1,2 @@
 # weather-app
-Weather App using async/await and APIs
+Weather App using async/await and openWeather API
