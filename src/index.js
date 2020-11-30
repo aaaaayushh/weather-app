@@ -1,0 +1,1 @@
+import {searchData} from "./render-data";
